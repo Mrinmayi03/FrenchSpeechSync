@@ -72,13 +72,17 @@ AWS_REGION	e.g., us-east-2
 ### 3️⃣ Build & Run Backend
 
 cd backend
+
 docker build -t speaksync-backend .
+
 docker run -p 8000:8000 speaksync-backend
 
 ### 4️⃣ Build & Run Frontend
 
 cd speaksync-frontend
+
 docker build -t speaksync-frontend .
+
 docker run -p 3000:3000 speaksync-frontend
 
 ### 💡 How to Use
