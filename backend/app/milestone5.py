@@ -11,10 +11,11 @@ from gtts import gTTS               # ★ new
 import whisper_timestamped as whisper
 import cv2, numpy as np, os, srt, uuid, tempfile
 from datetime import timedelta
+import os
 
 
 # ───────── Whisper model ───────── #
-model = whisper.load_model("base")
+model = whisper.load_model(os.getenv("WHISPER_MODEL" , "base"))
 
 
 # ───────────────────────── helpers ───────────────────────── #
