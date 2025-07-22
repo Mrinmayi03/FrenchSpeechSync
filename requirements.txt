@@ -1,0 +1,10 @@
+﻿moviepy==1.0.3
+opencv-python
+numpy
+pysrt
+whisper-timestamped
+pytube
+yt_dlp
+googletrans==4.0.0-rc1
+gTTS
+srt

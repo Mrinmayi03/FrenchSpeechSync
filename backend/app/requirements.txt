@@ -1,0 +1,15 @@
+﻿fastapi
+uvicorn
+boto3
+python-multipart
+python-dotenv
+moviepy==1.0.3
+opencv-python
+numpy
+pysrt
+whisper-timestamped
+pytube
+yt_dlp
+googletrans==4.0.0-rc1
+gTTS
+srt

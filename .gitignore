@@ -1,0 +1,5 @@
+# Ignore all .env files everywhere
+.env
+
+# Ignore the specific .env in backend/app
+backend/app/.env
