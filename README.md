@@ -75,7 +75,7 @@ cd backend
 
 docker build -t speaksync-backend .
 
-docker run -p 8000:8000 speaksync-backend
+docker run -it -p 8000:8000 --env-file ./app/.env speaksync-backend
 
 ### 4️⃣ Build & Run Frontend
 
